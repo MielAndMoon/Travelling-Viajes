@@ -1,15 +1,13 @@
-package com.mielandmoon.travelling_viajes.presentation.navigation
+package com.mielandmoon.travelling_viajes.core.presentation.navigation
 
 import androidx.compose.material3.DrawerState
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.toRoute
-import com.mielandmoon.travelling_viajes.domain.model.Place
-import com.mielandmoon.travelling_viajes.presentation.components.BaseScaffold
-import com.mielandmoon.travelling_viajes.presentation.components.PlaceDetail
-import com.mielandmoon.travelling_viajes.presentation.components.PlacesList
+import com.mielandmoon.travelling_viajes.place.domain.model.Place
+import com.mielandmoon.travelling_viajes.core.presentation.navigation.components.BaseScaffold
+import com.mielandmoon.travelling_viajes.place.presentation.screens.PlacesListScreen
 import kotlinx.coroutines.CoroutineScope
 
 @Composable
@@ -20,15 +18,14 @@ fun MainNavHost(
     drawerState: DrawerState,
 ) {
     NavHost(
-        navController = navController,
-        startDestination = HomeScreen
+        navController = navController, startDestination = HomeRoute
     ) {
-        composable<HomeScreen> {
+        composable<HomeRoute> {
             BaseScaffold(
                 scope = scope,
                 drawerState = drawerState,
             ) {
-                PlacesList(
+                PlacesListScreen(
                     places = places,
                     padding = it,
                 )

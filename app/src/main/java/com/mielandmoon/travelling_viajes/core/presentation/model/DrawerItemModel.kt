@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.presentation.model
+package com.mielandmoon.travelling_viajes.core.presentation.model
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.presentation.components
+package com.mielandmoon.travelling_viajes.core.presentation.navigation.components
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu

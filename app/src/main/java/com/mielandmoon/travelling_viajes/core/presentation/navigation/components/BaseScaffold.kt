@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.presentation.components
+package com.mielandmoon.travelling_viajes.core.presentation.navigation.components
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize

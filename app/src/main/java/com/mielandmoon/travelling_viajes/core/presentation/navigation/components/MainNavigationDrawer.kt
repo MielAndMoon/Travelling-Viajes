@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.presentation.components
+package com.mielandmoon.travelling_viajes.core.presentation.navigation.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -30,7 +30,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.mielandmoon.travelling_viajes.presentation.model.DrawerItemModel
+import com.mielandmoon.travelling_viajes.core.presentation.model.DrawerItemModel
 
 @Composable
 fun MainNavigationDrawer(

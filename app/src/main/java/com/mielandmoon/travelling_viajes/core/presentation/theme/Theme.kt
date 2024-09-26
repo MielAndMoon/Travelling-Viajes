@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.presentation.theme
+package com.mielandmoon.travelling_viajes.core.presentation.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

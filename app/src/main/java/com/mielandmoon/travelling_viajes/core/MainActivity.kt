@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.presentation
+package com.mielandmoon.travelling_viajes.core
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,9 +8,9 @@ import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.navigation.compose.rememberNavController
-import com.mielandmoon.travelling_viajes.domain.model.Place
-import com.mielandmoon.travelling_viajes.presentation.navigation.MainNavHost
-import com.mielandmoon.travelling_viajes.presentation.theme.TravellingViajesTheme
+import com.mielandmoon.travelling_viajes.place.domain.model.Place
+import com.mielandmoon.travelling_viajes.core.presentation.navigation.MainNavHost
+import com.mielandmoon.travelling_viajes.core.presentation.theme.TravellingViajesTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
             Place(
                 id = 1,
                 name = "Peru",
-                description = "Peru is a country in South America. It is the seventh largest country in the world by area.",
+                description = "Peru is a country in South America. It is the seventh largest country in the world by area. for the 2019 census, it was the world's 12th most populous country. Peru is the third most populous country in South America, after Brazil and Argentina. It is the most populous country in the Andes, and the second most populous country in South America. Peru is a country in South America. It is the seventh largest country in the world by area. for the 2019 census, it was the world's 12th most populous country. Peru is the third most populous country in South America, after Brazil and Argentina. It is the most populous country in the Andes, and the second most populous country in South America. Peru is a country in South America. It is the seventh largest country in the world by area. for the 2019 census, it was the world's 12th most populous country. Peru is the third most populous country in South America, after Brazil and Argentina. It is the most populous country in the Andes, and the second most populous country in South America. for the 2019 census, it was the world's 12th most populous country. Peru is the third most populous country in South America, after Brazil and Argentina. It is the most populous country in the Andes, and the second most populous country in South America. In 2019, Peru was the world's 12th most populous country. Peru is the third most populous country in South America, after Brazil and Argentina. It is the most populous country in the Andes, and the second most populous country in South America. just a few years ago, Peru was the world's 12th most populous country.",
                 image = "https://cdn.pixabay.com/photo/2012/04/26/22/48/machu-picchu-43387_1280.jpg",
                 location = "Lima, Peru",
                 rating = 5,

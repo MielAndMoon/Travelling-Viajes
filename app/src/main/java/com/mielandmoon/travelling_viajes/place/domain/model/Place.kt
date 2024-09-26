@@ -1,4 +1,4 @@
-package com.mielandmoon.travelling_viajes.domain.model
+package com.mielandmoon.travelling_viajes.place.domain.model
 
 data class Place(
     val id: Int,
