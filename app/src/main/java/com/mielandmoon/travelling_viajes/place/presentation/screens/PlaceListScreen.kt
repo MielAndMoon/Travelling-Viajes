@@ -6,7 +6,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.mielandmoon.travelling_viajes.place.domain.model.Place
-import com.mielandmoon.travelling_viajes.place.presentation.components.PlaceItem
+import com.mielandmoon.travelling_viajes.place.presentation.components.place_list.PlaceItem
 
 @Composable
 fun PlacesListScreen(
