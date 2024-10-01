@@ -74,4 +74,6 @@ dependencies {
 
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.navigation.compose)
+
+    implementation(libs.material.icons.extended)
 }
