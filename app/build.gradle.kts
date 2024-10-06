@@ -76,4 +76,17 @@ dependencies {
     implementation(libs.navigation.compose)
 
     implementation(libs.material.icons.extended)
+
+    implementation(libs.lifecycle.viewmodel.compose)
+
+    implementation(libs.androidx.datastore.preferences)
+
+    implementation(libs.koin.android)
+    implementation(libs.koin.compose)
+    implementation(libs.koin.compose.navigation)
+
+    implementation(libs.ktor.client.android)
+    implementation(libs.ktor.client.serialization)
+    implementation(libs.ktor.serialization.kotlinx.json)
+    implementation(libs.ktor.client.content.negotiation)
 }

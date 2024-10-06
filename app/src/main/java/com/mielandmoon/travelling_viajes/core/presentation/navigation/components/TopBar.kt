@@ -14,14 +14,15 @@ import androidx.compose.ui.Modifier
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TopBar(
-    onClick: () -> Unit,
-    modifier: Modifier = Modifier
+    title: String,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit = {}
 ) {
     CenterAlignedTopAppBar(
         modifier = modifier,
         title = {
             Text(
-                "Travelling Viajes",
+                title,
                 style = MaterialTheme.typography.headlineSmall,
             )
         },

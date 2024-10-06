@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.mielandmoon.travelling_viajes.core.presentation.model.DrawerItemModel
+import com.mielandmoon.travelling_viajes.core.presentation.navigation.Routes
 
 @Composable
 fun NavigationBarItem(
